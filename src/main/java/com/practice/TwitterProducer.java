@@ -36,17 +36,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * For Twitter!
- * 
- * start zookeeper: zookeeper-server-start /usr/local/etc/zookeeper/zoo.cfg
- * 
- * 0.0.0.0/0.0.0.0:2181
- * 
- * next
- * 
- * kafka-server-start /usr/local/etc/kafka/server.properties
- * 
- * kafka-topics --bootstrap-server 127.0.0.1:9092 --create --topic
- * twitter_tweets --partitions 6 --replication-factor 1
  */
 public class TwitterProducer {
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class);
